@@ -38,7 +38,7 @@ function newQuote() {
         quoteText.classList.remove('long-quote')
     }
     // Set quote, Hide Loader
-    quoteText.textContent = quote.text + '"'
+    quoteText.textContent = quote.text
     complete();
 }
 
